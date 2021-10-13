@@ -1,0 +1,92 @@
+*{
+    font-family: "Raleway", sans-serif;
+}
+.bar{
+    background-image: linear-gradient(#020024,#0f0fa5);
+}
+.search
+{
+    font-size: 15px;
+    margin-top: 9px;
+    border-radius: 13px 0px 0px 13px;
+}
+.search_btn
+{
+    font-size: 15px;
+    margin-top: 9px;
+    border-radius: 0px 13px 13px 0px;
+}
+.Feedback
+{
+    text-decoration: 3px solid blue underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+.checked 
+{
+    color: orange;
+}
+
+.chat-popup 
+{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+  
+.form-container 
+{
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  .form-container textarea:focus 
+{
+    background-color: #ddd;
+    outline: none;
+}
+  
+.form-container .btn 
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+  
+.form-container .cancel 
+{
+    background-color: red;
+}
+  
+.form-container .btn:hover, .open-button:hover 
+{
+    opacity: 1;
+}
+
+@media screen and (max-width:600px)
+{
+    #hide
+    {
+        display: none;
+    }
+}
+  
